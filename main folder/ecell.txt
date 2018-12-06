@@ -1,0 +1,338 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ecell nsit</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Cabin:400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Sorts+Mill+Goudy" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script:700" rel="stylesheet">
+<style>
+    #top{
+            background-image:url("art.jpg");
+            height:400px;
+            width:100%;
+            background-position:center;
+            background-size:cover;
+            padding-top:0px;
+        }
+        body{
+            position:relative;
+            color:white;
+        }
+        #toprow{
+                text-align:center;
+                margin-top:100px;
+                color:#ffff64;
+        }
+        #toprow h1{
+            font-size:500%;
+        }
+        .bold{
+            font-weight:bold;
+        }
+        .center{
+            text-align:center;
+        }
+        .color1{
+            background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .color2{
+            color:#23527C;
+        }
+        .glyphicon{
+            font-size:1.1em;
+            margin-right:1px;
+        }
+        .tw-ic{
+            padding-right:5px;
+            padding-left:5px;
+        }
+        .nav.navbar-nav.navbar-right li a {
+            color: blue;
+        }
+        h1{
+            font-family: 'Raleway', sans-serif;
+
+            font-size:2em;
+        }
+        p{
+            font-size:1.5em;
+            font-family: 'Lato', sans-serif;
+            position:relative;
+            top:10px;
+        }
+        #about{
+            position:relative;
+            top:20px;
+        }
+        .head{
+            position:relative;
+            margin-bottom:20px;
+        }
+        
+        #event{
+            position:relative;
+            top:-30px;
+            
+        }
+        .size{
+            font-size:1.5em;
+        }
+        .color4{
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        .esummit{
+                color:black;
+                font-size:2em;
+        }
+        .black{
+                color:black;
+                
+                
+        }
+        .case{
+            position:relative;
+            top:20px;
+        }
+        .size1{
+            font-size:2em;
+        }
+        .back{
+                background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .l{
+            font-size:2em;
+        }
+        
+/* Title */
+.navbar-default .navbar-brand {
+    color:black;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color:#F6931D;
+}
+
+
+
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color:black;
+}
+#contact1{
+    background-color:black;
+    width:100%;
+}
+.footer{
+    margin-top:20px;
+}
+#image{
+    width:400px;
+    height:400px;
+    position:relative;
+    top:-20px;
+}
+.img2{
+    width:500px;
+    height:500px;
+    position:relative;
+    margin:70px 20px 20px 50px;
+}
+
+</style>
+</head>
+
+<body class="color4" data-spy="scroll" data-target=".navbar-collapse">
+    
+		<div class="navbar navbar-default navbar-fixed-top ">
+			<div class="container">
+			    
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<a class="navbar-brand" href="#top">Ecell Nsit</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a class="ab" href="#about">About</a></li>
+						<li><a class="ev" href="#event">Events</a></li>
+						<li><a href="#contact">Contact</a></li>
+				    </ul>
+				</div>
+			</div>
+		</div>
+	<div class="content-container container" id="top">
+	    <div class="row">
+	        
+	        <div class="col-md-6 col-md-offset-3" id="toprow">
+	            <img src="logo.png" id="image"/>
+	            <p class="bold lead " >We strive to deliver the best of the entrepreneurial experiences to the newbies and help them nurture their skills,making them able to keep up with Joneses</p>
+	       </div>
+	   </div>
+	</div>
+	
+	 <div class="content-container container" id="about" >
+	    <div class="row">
+	        <div class="col-md-12">
+	            <div class="col-md-6">
+	       <h1 class="head">About eCell NSIT</h1>
+	            
+	<p  class="lead size"> eCell NSIT envisions a society of self-motivated individuals kernelled with constructive and intense entrepreneurial drive. Our sole aim is to have budding entrepreneurs coming through the ranks after taking on the challenges in this cut-throat competitive world. Further, we aim at building a strong team with an unmatched work ethic who work day and night to fulfil our goal of spreading awareness regarding entrepreneurship among all college-students and help the newly born enterprises in their ventures.</p>
+
+<p class="lead size">We organise Workshops and Guest Lectures periodically to create awareness about entrepreneurship and hence We function as a guide for students with creative ideas and immense zeal to convert these ideas into an enterprise. Moreover, a strong alumni network is an invaluable asset which is instrumental in providing mentorship to motivated individuals for launching their start-ups.
+
+</p>
+	            
+	            </div>
+	            <div class="col-md-6">
+	                <img src="about.png" class="img2" />
+	            </div>
+	       </div>
+	    </div>
+</div>
+	            
+<div class="content-container container" id="event">
+	<h1 class="head center">Upcoming Events</h1>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="book.jpg" alt="orient" style="width:100%; height:500px;">
+        <div class="carousel-caption">
+          <h3 class="black size1">Ecell orientation</h3>
+          <p class="black lead">Clear your doubts with an interactive session with the member of ecell!!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="a.jpg" alt="case" style="width:100%; height:500px;">
+        <div class="carousel-caption">
+          <h3 class="case">Case study competition</h3>
+          <p class="case lead">Get ready to scratch you heads!!</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="building.jpg" alt="Esummit" style="width:100%; height:500px">
+        <div class="carousel-caption">
+          <h2 class="esummit">Esummit 2018</h2>
+          <p class="esummit lead">the biggest event is here!</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    
+        
+    </div>
+</div>
+
+<div class="container" id="contact1">
+   <div class="col-md-12" >
+    <div class="row footer">
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fa fa-facebook l"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fa fa-twitter l"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fa fa-google-plus l"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fa fa-linkedin l"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1">
+            <i class="fa fa-dribbble l"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+    
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" id="contact">© 2018 Copyright:
+      <a href="https://ecellnsit.com">Ecellnsit.com</a>
+    </div>
+    <!-- Copyright -->
+</div>
+</div>
+</body>
+</html>
+
+	   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js">
+    
+</script>
+<script>
+    $(".content-container").css("height",$(window).height());
+        var offset1 = 50;
+
+$('.ab').click(function(event) {
+    event.preventDefault();
+    $($(this).attr('href'))[0].scrollIntoView();
+    scrollBy(0, -offset1);
+});
+        var offset2 = 50;
+
+$('.ev').click(function(event) {
+    event.preventDefault();
+    $($(this).attr('href'))[0].scrollIntoView();
+    scrollBy(0, -offset2);
+});
+</script>
+</body>
+</html>

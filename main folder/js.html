@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <title>javascript</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />    
+</head>
+<style type="text/css">
+	#remove{
+		background-color:#E52222;
+		width:50px;
+		height:50px;
+		border-radius:25px;	}
+</style>
+<body>
+	
+	<button id="chtext">you want to click me</button>
+	<div id="firstdiv">what it is?</div>
+	<button id="crtext">click to know</button>
+	<div id="seconddiv">i am..</div>
+	<button id="list">click to know what i love</button>
+	<div id="thirddiv"></div>
+	<div id="remove"></div>
+	<input id="myinput" type="text" value="test" />
+	<button id="cgtext">change text</button>
+	<div id="fourthdiv">some text</div>
+	<p id="arrayString"></p>
+	<script type="text/javascript">
+		
+		document.getElementById("chtext").onclick=function(){
+			document.getElementById("firstdiv").innerHTML="this is awesome!";
+		}	
+		document.getElementById("crtext").onclick=function(){
+			document.getElementById("seconddiv").innerHTML=document.getElementById("seconddiv").innerHTML+"awesome!";
+		} 
+		
+		document.getElementById("list").onclick=function(){
+			document.getElementById("thirddiv").innerHTML="<ul><li>cricket</li><li>coding</li>";
+		}
+		document.getElementById("remove").onclick=function(){
+			document.getElementById("remove").style.display="none";
+			
+		}
+		document.getElementById("cgtext").onclick=function(){
+			var newtext=document.getElementById("myinput").value;
+			document.getElementById("fourthdiv").innerHTML=newtext;
+		}
+		
+		var myArray=["pizza","chocolate","chips"];
+		var arrayString="";
+		for(var i=0; i<myArray.length;i++)
+		{
+			arrayString=arrayString+myArray[i]+" ";
+		}
+document.getElementById("arrayString").innerHTML=arrayString;
+				
+	</script>   
+
+</body>
+</html>

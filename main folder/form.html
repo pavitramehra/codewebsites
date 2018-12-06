@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>first program</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<style>
+		#wrapper{
+			width:500px;
+			margin:0 auto;
+			font-family:helvetica;
+			
+		}
+		input{
+			width:200px;
+			height:30px;
+			padding:5px;
+			border-radius:5px;
+			font-size:1.2em;
+			border:1px solid grey;
+			margin-bottom:5px;
+		}
+		label{
+			width:150px;
+			float:left;
+			padding-top:7px;
+		}
+		#sbutton{
+			margin-left:150px;
+			width:100px;
+		}
+		#error{
+			color:red;
+		}
+	</style>
+			
+</head>
+
+<body>
+	<div id="wrapper">
+	<div id="error"></div>
+	<form id="vform">
+	<label for="email">Email</label>
+	<input name="email" id="email" />
+
+	<label for="phone">Telephone</label>
+	<input name="phone" id="phone" />
+	
+	<label for="pass">Password</label>
+	<input name="email" type="password" id="pass1" />
+	
+	<label for="pass">Confirm Password</label>
+	<input name="pass" type="password" id="pass2" />
+	
+	<input id="sbutton" type="submit" value="Submit" />
+	</form>
+	</div>
+	<script>
+		$("#vform").submit(function(event){
+			
+		var error="";
+		event.preventDefault();	
+		if(!$.isNumeric($("#phone").val())){
+			error=error+"<br/>please enter a valid phone number";
+		}
+		if($("#pass1").val()!=$("#pass2").val()){
+			error=error+"<br />please enter a matching password";
+		}
+			$("#error").html(error);
+		});
+
+	</script>
+</body>
+</html>

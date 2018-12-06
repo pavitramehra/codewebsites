@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebLearn</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		body{
+			background-size:cover;
+			margin:0;
+		}
+		#topcontainer{
+				background-image:url("book2.jpeg");
+				width:100%;
+				background-size:cover;
+				margin:0;
+				padding:0;
+		}
+		#toprow{
+			margin-top:100px;
+			text-align:center;
+		}
+		#toprow h1{
+			font-size:300%;
+			color:white;
+		}
+		#toprow p{
+			 color:white;
+		}
+		.bold{
+			font-weight:bold;
+		}
+		.margintop{
+			margin-top:30px;
+		}
+		.center{
+			text-align:center;
+		}
+		#footer{
+			background-color:lightblue;
+			width:100%;
+		}
+		.marginbottom{
+			margin-bottom:30px;
+		}
+		.image{
+			width:250px;
+		}
+		ul{
+			margin:0;
+		}
+
+	</style>
+  </head>
+  <body>
+		
+			<div class="navbar navbar-inverse">
+				<div class="container">
+					<div class="navbar-header">
+						<a href="" class="navbar-brand">WebLearn</a>
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle Navigation</span>
+
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+
+							</button>
+					</div>
+	
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="">Physics</a></li>
+							<li><a href="">Chemistry</a></li>
+							<li><a href="">Mathematics</a></li>
+							<li><a href="">Biology</a></li>
+						</ul>
+					<form class="navbar-form navbar-right">
+						<div class="form-group">
+							<input type="email" placeholder="Email" class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="password" placeholder="Passsword" class="form-control">
+						</div>
+						<button type="submit" class="btn btn-success">Log In</button>
+					</form>
+		
+			
+			
+					</div>
+				</div>
+			</div>
+		<div class="container contentcontainer" id="topcontainer">
+			<div class="row">
+				<div class="col-md-12" col-md-offset-6" id="toprow">
+					<h1>Web Learning App</h1>
+					<p>This is why you should download this app</p>
+					<p>clears your doubts related to science and mathematics.help you to prepare better for your examinations.</p>
+					<p class="bold margintop">Interested? Join our mailing list!!</p>
+                                        <div class="container">   	
+						<form class="margintop">
+						<div class="input-group ">
+							
+		
+							<span class="input-group-addon" id="at">@</span>
+							<input type="email" class="form-control" placeholder="your email address" />
+						</div>		
+					
+							<input type="submit" class="btn btn-success btn-lg margintop" />
+					</form>	
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+			
+		    <div class="container contentcontainer">	
+			<div class="row center">
+				<h1 class="center">Why this App is Awesome</h1>
+				<p class="lead center">summary of the app</p>
+			</div>
+
+			<div class="row marginbottom">
+
+				<div class="col-md-4">
+				<h2><span class="glyphicon glyphicon-music"></span>header</h2>
+				<p>a breif description about some of the best features of the app.new about this app.how it is different from others app.</p>
+					<buttom class="btn btn-success margintop">sign up!</button>
+			</div>
+
+				<div class="col-md-4">
+				<h2><span class="glyphicon glyphicon-off"></span>header</h2>
+				<p>a breif description about some of the best features of the app.new about this app.how it is different from others app.</p>
+					<buttom class="btn btn-success margintop">sign up!</button>
+			</div>
+
+				<div class="col-md-4">
+				<h2><span class="glyphicon glyphicon-pencil"></span>header</h2>
+				<p>a breif description about some of the best features of the app.new about this app.how it is different from others app.</p>
+					<buttom class="btn btn-success margintop">sign up!</button>
+			</div>
+			</div>
+		    </div>
+				<div class="container contentcontainer" id="footer">
+					<div class="row">
+						<h1 class="center">Download the App!!</h1>
+						<p class="center"><img src="app.png" class="image" /></p>
+					</div>
+
+				</div>
+			
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+	<script>
+
+		$(".contentcontainer").css("height",$(window).height());
+	</script>
+  </body>
+</html>
